@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lightbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+   <link href="css/lightbox.css" rel="stylesheet">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+            <div class="span12">
+               <h2>Lightbox example</h2>
+                  <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="lightbox-content">
+                              <img src="img/img1.jpg"/>
+                          <div class="lightbox-caption"><p>Your caption here</p></div>
+                      </div>
+                  </div>
+                     <a data-toggle="lightbox" href="#demoLightbox" class="span2 thumbnail"><img src="img/img1.jpg"/></a>>
+              </div>
+              <div class="span12"><br><br>
+                <div id="demoLightbox2" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                      <div class="lightbox-content">
+                              <img src="img/img2.jpg"/>
+                          <div class="lightbox-caption"><p>Your caption here</p></div>
+                      </div>
+                  </div>
+                     <a data-toggle="lightbox" href="#demoLightbox2" class="span2 thumbnail"><img src="img/img2.jpg"/></a>
+              </div>
+         </div>       
+      </div>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+      
+  </body>
+</html>
